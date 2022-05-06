@@ -14,5 +14,4 @@ def test_str_counter():
     result = runner.invoke(main, ["--count_numbers",'1'])
     assert result.exit_code == 0
     assert result.output == """Total numbers 1
-' 1 ' : 1
-"""
+' 1 ' : 1"""
